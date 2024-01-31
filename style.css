@@ -1,0 +1,26 @@
+.gradient-background{
+    background-image:linear-gradient(300deg,rgb(255, 221, 0),rgb(204, 49, 49),hotpink);
+    animation:anim 18s ease infinite;
+    background-size:180% 180%;
+}
+
+@keyframes anim{
+    0%{
+        background-position:0% 50%;
+    }
+    50%{
+        background-position:100% 50%;
+    }
+    100%{
+        background-position:0% 50%;
+    }
+}
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+.dog-img{
+    height:100px;
+    border-radius:50%;
+}
